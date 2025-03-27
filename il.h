@@ -24,8 +24,8 @@ static inline void init_list(LL *list) {
     list->len = 0;
 }
 
-static inline int empty(LL *list) {
-    return list->len == 0;
+static inline int empty_list(LL *list) {
+    return (list->len == 0);
 }
 
 static inline void item_append(IL *item1, IL *item2) {
