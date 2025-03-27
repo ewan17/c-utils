@@ -50,7 +50,7 @@ static inline IL *item_remove(IL *item) {
 }
 
 static inline IL *list_pop(LL *list) {
-    if(empty(list)) {
+    if(empty_list(list)) {
         return NULL;
     }
 
