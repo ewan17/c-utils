@@ -1,3 +1,0 @@
-[submodule "external/c-utils"]
-	path = external/c-utils
-	url = https://github.com/ewan17/c-utils.git
